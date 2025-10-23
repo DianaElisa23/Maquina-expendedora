@@ -19,7 +19,7 @@ public class Impresora {
         if (tieneTinta() && tieneBilletes(tipo)) {
             billetesDisponibles--;
             nivelTinta--;
-            System.out.println("Imprimiendo y expulsando billete tipo " + tipo + "...");
+            System.out.println("Imprimiendo y expulsando billete tipo " + tipo);
         } else {
             System.out.println("No hay tinta o billetes disponibles.");
         }
@@ -35,5 +35,6 @@ public class Impresora {
         System.out.println("Billetes recargados.");
     }
 }
+
 
 
