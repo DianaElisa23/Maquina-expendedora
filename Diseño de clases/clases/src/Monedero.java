@@ -14,7 +14,7 @@ public class Monedero {
     public void suministrar(int cantidad) {
         if (esPosibleSuministrar(cantidad)) {
             saldoActual -= cantidad;
-            System.out.println("Suministrando cambio: " + cantidad);
+            System.out.println("Su cambio es de: " + cantidad);
         } else {
             System.out.println("No hay suficiente saldo");
         }
